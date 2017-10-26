@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
     <!-- CSS reset -->
@@ -14,7 +14,6 @@
     <!-- Resource style -->
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
     <title>FT Website</title>
 </head>
@@ -23,53 +22,39 @@
     <nav id="cd-vertical-nav">
         <ul>
             <li>
-                <a href="#section1" data-number="1">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Intro</span>
-				</a>
-            </li>
-            <li>
-                <a href="#section2" data-number="2">
+                <a href="#section2" data-number="1">
 					<span class="cd-dot"></span>
 					<span class="cd-label">Infographic</span>
 				</a>
             </li>
             <li>
-                <a href="#section3" data-number="3">
+                <a href="#section3" data-number="2">
 					<span class="cd-dot"></span>
 					<span class="cd-label">Interactive game</span>
 				</a>
             </li>
             <li>
-                <a href="#section4" data-number="4">
+                <a href="#section4" data-number="3">
 					<span class="cd-dot"></span>
 					<span class="cd-label">Video 360</span>
 				</a>
             </li>
             <li>
-                <a href="#section5" data-number="5">
+                <a href="#section5" data-number="4">
 					<span class="cd-dot"></span>
 					<span class="cd-label">Posters</span>
-				</a>
-            </li>
-            <li>
-                <a href="#section6" data-number="6">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Unknown</span>
 				</a>
             </li>
         </ul>
     </nav>
     <a class="cd-nav-trigger cd-img-replace"><span></span></a>
 
-    <section id="section1" class="cd-section">
-        <h1>Vertical Fixed Navigation</h1>
-        <a href="#section2" class="cd-scroll-down cd-img-replace"></a>
-    </section>
 
+    <div id="sectionpad"></div>
     <section id="section2" class="cd-section">
-        <p>What's behind <br>the food?</p>
-        <img id="banana" src="img/banana.png" alt="">
+        <h1>What's behind <br>the campaign?</h1>
+        <p>What is Fairtrade?</p>
+        <img id="banana" src="img/firstslide.png" alt="">
         <div class="path1">
             <div id="trigger1" class="spacer s0"></div>
             <div class="spacer s2"></div>
@@ -83,6 +68,26 @@
 			</svg>
         </div>
         <img id="phone" src="img/phone.png" alt="">
+    </section>
+
+        <section id="section6" class="cd-section">
+        	        <div class="path5">
+            <div id="trigger5" class="spacer s0"></div>
+            <div class="spacer s2"></div>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 38 164.5" style="enable-background:new 0 0 38 164.5;" xml:space="preserve">
+<style type="text/css">
+	
+		#st9{fill:none;stroke:#FFDF00;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1,5;}
+		#st10{fill:none;stroke:#F4F4F4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1,5;}
+</style>
+<path id="st10" d="M19.9,16.3c0,0,1.6,53.4-0.6,131.4"/>
+<path id="st9" d="M19.9,16.3c0,0,1.6,53.4-0.6,131.4"/>
+</svg>
+
+        </div>
+        	<br>
+        <h1>Gain Some Knowledge First!</h1>
     </section>
 
     <section id="section3" class="cd-section">
@@ -101,8 +106,8 @@
 </svg>
 
         </div>
-<h1>Interactive game</h1>
-<p>This is a pargaraf of an exemple to see how woult it look like. Don’t take it seriously because it has to be changed.</p>
+<h1>Put Yourself in the Shoes of a Farmer! </h1>
+<p>Get your hands dirty and experience the realities for farmers all over the world.</p>
 <button>Play now</button>
     </section>
 
@@ -123,7 +128,7 @@
         </div>
         <iframe src="https://www.youtube.com/embed/ZZ5LpwO-An4" frameborder="0" allowfullscreen></iframe>
         <h1>Glasses ON!</h1>
-        <p>This is a pargaraf of an exemple to see how woult it look like. </p>
+        <p>Watch our experiment play out in 360 degrees and gain some new found perspective.</p>
     </section>
 
     <section id="section5" class="cd-section">
@@ -140,37 +145,62 @@
 <path id="st7" d="M134.2,8c0,0,12.3,95.4-56,95.4S8.8,196.2,8.8,196.2"/>
 </svg>
 </div>
-				<div class="posters"></div>
-                
+
+            <div id="poster1" class="flip"> 
+    <div class="front"> 
+        <img src="img/banana1.png" alt="" />
+    </div> 
+    <div class="back">
+        <img src="img/banana2.png" alt="" />
+    </div> 
+</div>
+            <div id="poster2" class="flip"> 
+    <div class="front"> 
+        <img src="img/chocolate1.png" alt="" />
+    </div> 
+    <div class="back">
+        <img src="img/chocolate2.png" alt="" />
+    </div> 
+</div>
+            <div id="poster3" class="flip"> 
+    <div class="front"> 
+        <img src="img/honey1.png" alt="" />
+    </div> 
+    <div class="back">
+        <img src="img/honey2.png" alt="" />
+    </div> 
+</div>
+            <div id="poster4" class="flip"> 
+    <div class="front"> 
+        <img src="img/tea1.png" alt="" />
+    </div> 
+    <div class="back">
+        <img src="img/tea2.png" alt="" />
+    </div> 
+</div>
+            <div id="poster5" class="flip"> 
+    <div class="front"> 
+        <img src="img/wine1.png" alt="" />
+    </div> 
+    <div class="back">
+        <img src="img/wine2.png" alt="" />
+    </div> 
+</div>
+    </section>
+
+    <section id="end" class="cd-section">
+         <h1>SHARE CONTENT.</h1>
+<p>Now that you’ve seen what’s behind, are you willing to spread your knowledge? 
+Just by clicking a button you can share the message about Fairtrade!
+So take action starting now and convince others to be more conscious. 
+Information is all it takes to create a change.</p>
 
 
     </section>
-
-    <section id="section6" class="cd-section">
-        <h1>POSTERS</h1>
-              <div class="card effect__click" 
-  <div class="card__front">
-    <span class="card__text">FRONT</span>
-  </div>
-  <div class="card__back">
-    <span class="card__text">BACK</span>
-  </div>
-</div><!-- /card -->
+            <div id="sectionpad"></div>
 
 
-<div class="card effect__click" 
-  <div class="card__front">
-    <span class="card__text"></span>
-  </div>
-  <div class="card__back">
-    <span class="card__text"></span>
-  </div>
-</div><!-- /card -->
 
-            </div>
-
-            
-    </section>
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
     <script src="js/TimelineMax.js"></script>
@@ -178,9 +208,9 @@
     <script src="js/ScrollMagic.min.js"></script>
     <script src="js/animation.gsap.js"></script>
     <script src="js/debug.addIndicators.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.jcarousel.min.js"></script>
-    <script src="js/jcarousel.responsive.js"></script>
+    <script src="js/jquery.flip.min.js"></script>
+    <!-- <script src="js/jquery.jcarousel.min.js"></script> -->
+    <!-- <script src="js/jcarousel.responsive.js"></script> -->
 
     <script>
         function pathPrepare($el) {
@@ -193,6 +223,7 @@
         var $st3 = $("path#st3");
         var $st5 = $("path#st5");
         var $st7 = $("path#st7");
+        var $st9 = $("path#st9");
 
 
         // prepare SVG
@@ -200,6 +231,7 @@
         pathPrepare($st3);
         pathPrepare($st5);
         pathPrepare($st7);
+        pathPrepare($st9);
 
         // init controller
         var controller = new ScrollMagic.Controller();
@@ -267,8 +299,32 @@
         }).setTween(tween4)
         // .addIndicators()
         .addTo(controller);
+
+        // path5
+        var tween5 = new TimelineMax().add(TweenMax.to($st9, 1.1, {
+            strokeDashoffset: 0,
+            ease: Linear.easeNone
+        })).add(TweenMax.to("path#st9", 1, {
+            stroke: "#FFDF00",
+            ease: Linear.easeNone
+        }), 1);
+        var path5 = new ScrollMagic.Scene({
+            triggerElement: "#trigger5",
+            duration: 800,
+            tweenChanges: true
+        }).setTween(tween5)
+        // .addIndicators()
+        .addTo(controller);
     </script>
 
-</body>
+    <script>
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover'
+    });
+});
+</script>
+
+ </body>
 
 </html>
